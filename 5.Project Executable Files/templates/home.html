@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Loan Prediction</title>
+    <style>
+        body { background: #f8d7da; font-family: Arial; }
+        .container { margin: 30px auto; width: 80%; text-align: center; }
+        .top-right { position: absolute; top: 20px; right: 40px; }
+        a { color: #007bff; text-decoration: none; font-size: 18px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Loan Prediction</h1>
+        <p>
+            Loan Approval is based on a variety of factors. We made it simple for you to get a prediction using our machine learning model.
+        </p>
+        <div class="top-right">
+            <a href="{{ url_for('predict') }}">Predict</a>
+        </div>
+        <img src="https://img.freepik.com/free-vector/clipboard-concept-illustration_114360-3473.jpg" width="400">
+    </div>
+</body>
+</html>
